@@ -1,0 +1,35 @@
+{
+  "name": "orm_example",
+  "version": "1.0.0",
+  "description": "Example using node, sequelize and sqlite",
+  "main": "src/index.js",
+  "scripts": {
+    "babel-node": "babel-node src/index.js",
+    "dev": "nodemon --exec npm run babel-node",
+    "build": "babel src --out-dir dist",
+    "start": "node dist/"
+  },
+  "author": "Gonzalo Aldana",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/node": "^7.14.9",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GonzaloAldana/Node-Sequelize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GonzaloAldana/Node-Sequelize/issues"
+  },
+  "homepage": "https://github.com/GonzaloAldana/Node-Sequelize#readme"
+}
